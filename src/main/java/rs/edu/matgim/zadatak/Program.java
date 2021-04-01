@@ -5,7 +5,8 @@ public class Program {
     public static void main(String[] args) {
 
         DB _db = new DB();
-        _db.printKomitent();
+        float f = _db.zadatak(1,2);
+        System.out.print(f);
         
     }
 }
